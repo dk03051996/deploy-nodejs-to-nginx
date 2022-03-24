@@ -1,0 +1,1 @@
+open Port 80 HTTP and 22 SSH for NGINX and SSH to access ec2 instance
