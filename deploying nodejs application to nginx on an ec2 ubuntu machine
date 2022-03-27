@@ -8,7 +8,11 @@ Install git and clone your repository in instance or use wget (link of s3 object
 enter into that repo by cd dashboard (dashboard is the name of folder where code is stored)
 Install all the necessary libraries of node by running command
 sudo apt update
-sudo apt install nodejs
+sudo apt install nodejs  
+{if this is not getting updated version try below
+curl -sL https://deb.nodesource.com/setup_16.x | sudo bash -
+sudo apt -y install nodejs
+}
 node -v (to check the version and node is installed or not)
 npm -v (to check npm package is installed on node)
 yarn install and yarn start (to download all the necessary package required to run application and install if something else is needed to install for yarn command to work)
