@@ -2,3 +2,5 @@
 
 
 https://medium.com/geekculture/configure-https-on-aws-ec2-for-free-using-cloudflare-e7120e9a6856
+Process to compplete through cloudfare in any of the server like apache or nginx or windows
+https://developers.cloudflare.com/ssl/origin-configuration/origin-ca/
