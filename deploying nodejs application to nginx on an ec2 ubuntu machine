@@ -41,7 +41,9 @@ proxy_cache_bypass $http_upgrade;
 Just make sure you are using the correct port number as I am using 3001 as my application port number
 save it using ctrl and O to save and exit with ctrl and Z
 now change user to root in /etc/nginx and in nginx.conf 
+
 now run sudo nginx -t to check if our configuration is done succesfully
+
 now restart nginx using "sudo systemctl restart nginx"
 Now open the public IP and DNS address to see your application running
 
