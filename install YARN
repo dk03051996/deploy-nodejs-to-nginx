@@ -1,0 +1,12 @@
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -   (add the GPG key)
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+Now, it will do as  standard package manager can access and manage Yarn
+sudo apt-get update
+sudo apt-get install yarn
+yarn ––version  to check the version   
+
+
+We can try to intsall yarn using npm if npm is installed otherwise you have to install npm first
+
+
+sudo npm install yarn –g
