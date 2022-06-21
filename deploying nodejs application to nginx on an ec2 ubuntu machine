@@ -37,6 +37,8 @@ proxy_set_header Upgrade $http_upgrade;
 proxy_set_header Connection 'upgrade';
 proxy_set_header Host $host;
 proxy_cache_bypass $http_upgrade;
+client_max_body_size 100M;
+# It increases the size of upload to 100 MB
 
 Just make sure you are using the correct port number as I am using 3001 as my application port number
 save it using ctrl and O to save and exit with ctrl and Z
