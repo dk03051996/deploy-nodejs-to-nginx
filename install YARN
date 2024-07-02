@@ -10,3 +10,4 @@ We can try to intsall yarn using npm if npm is installed otherwise you have to i
 
 
 sudo npm install yarn –g
+this is something we shoudl not be testing.
